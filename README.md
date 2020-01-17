@@ -37,7 +37,11 @@ notes:
   #define lcdPort     PTA          /* Port of 4 data bits to lcd connection  */
   #define lcdPortDD   DDRA         /* Data direction for 4 data pins         */
 ```
-    
+
+5) removed dependency start08.c  
+6) original_source_code, AN2940SW, part of original source code by NXP, register and download AN2940SW.zip, will see. 
+  
+  
   
 
 The original source code and application note. it has been designed for propritary software CodeWarrior® for Microcontrollers (Classic IDE) - RS08/HC(S)08, ColdFire V1 v6.3  
