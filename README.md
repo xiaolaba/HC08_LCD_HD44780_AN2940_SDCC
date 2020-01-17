@@ -25,7 +25,7 @@ notes:
   
 3) uses own build.bat as scrpting tool to build firmware image as [lcd_test.s19](lcd_test.s19)
 no error, no warning  
-![xiaolaba_built_result.JPG](xiaolaba_built_result.JPG) 
+![xiaolaba_built_result.JPG](xiaolaba_built_result.JPG)  
 
   
     
