@@ -8,6 +8,7 @@ notes:
   __asm CLI; __endasm;        // sdcc 3.9.0
 //  GLOBAL_INTERRUPT_ENABLE;  // same as above, uses macro
 ```
+  
 2) rewrite code to fit for QT device & sdcc 3.9.0, NXP/Freescale and original code was for AP device, see mcu_driver_select.h
 ```
 /* Select the Correctly Driver for your MicroControllerUnit */
@@ -19,6 +20,9 @@ notes:
 
 #endif
 ```
+  
+3) uses own build.bat as scrpting tool to build firmware image as lcd_test.s19  
+
 
 
 The original source code and application note. it has been designed for propritary software CodeWarrior® for Microcontrollers (Classic IDE) - RS08/HC(S)08, ColdFire V1 v6.3
