@@ -9,6 +9,7 @@ notes:
 //  GLOBAL_INTERRUPT_ENABLE;  // same as above, uses macro, see myio.h
 ```
   
+    
 2) rewrite code to fit for QT device & sdcc 3.9.0, NXP/Freescale and original code was for AP device, see mcu_driver_select.h
 ```
 /* Select the Correctly Driver for your MicroControllerUnit */
@@ -20,13 +21,15 @@ notes:
 
 #endif
 ```
+
   
 3) uses own build.bat as scrpting tool to build firmware image as lcd_test.s19  
+  
+    
+  
 
-
-
-The original source code and application note. it has been designed for propritary software CodeWarrior® for Microcontrollers (Classic IDE) - RS08/HC(S)08, ColdFire V1 v6.3
-
+The original source code and application note. it has been designed for propritary software CodeWarrior® for Microcontrollers (Classic IDE) - RS08/HC(S)08, ColdFire V1 v6.3  
+  
 https://www.nxp.com/webapp/sps/download/license.jsp?colCode=AN2940SW  
 https://www.nxp.com/docs/en/application-note/AN2940.pdf
 
