@@ -47,7 +47,7 @@ no error, no warning
   
   
 
-## The original source code and application note. it has been designed for propritary software CodeWarrior® for Microcontrollers (Classic IDE) - RS08/HC(S)08, ColdFire V1 v6.3  
+#### The original source code and application note. it has been designed for proprietary software CodeWarrior® for Microcontrollers (Classic IDE) - RS08/HC(S)08, ColdFire V1 v6.3 
   
 https://www.nxp.com/webapp/sps/download/license.jsp?colCode=AN2940SW  
 https://www.nxp.com/docs/en/application-note/AN2940.pdf
