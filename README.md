@@ -27,6 +27,18 @@ notes:
   
     
   
+4) rewrite lcd.h, for sdcc 3.9.0 and QT device  
+```
+//  for QT2, sdcc 3.9.0
+  #define lcdE        PTA5     /* Enabled pin of LCD                     */
+  #define lcdEDD      DDRA5   /* Data Direction of Enabled Pin          */
+  #define lcdRS       PTA4     /* RS pin of LCD (Data/Instruction Select)*/
+  #define lcdRSDD     DDRA4   /* Data Direction of RS Pin               */
+  #define lcdPort     PTA          /* Port of 4 data bits to lcd connection  */
+  #define lcdPortDD   DDRA         /* Data direction for 4 data pins         */
+```
+    
+  
 
 The original source code and application note. it has been designed for propritary software CodeWarrior® for Microcontrollers (Classic IDE) - RS08/HC(S)08, ColdFire V1 v6.3  
   
